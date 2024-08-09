@@ -5,9 +5,16 @@
     function CheckPass()
         {
             score = parseFloat(document.getElementByID("tscore").value);
-            alert(score);
+            if (score >=70)
+            {
+                alert("you passed!");
+            }
         }
 </script>
+    Test Score: <input type="text" id="tscore" />
+    <input type="button" value="check" onclick="CheckPass(); />
+    <div id = "results">
+    </div>
     <tr>
         <td> First Name:</td>
         <td><Input type="text" /></td>
@@ -48,10 +55,6 @@
         <td> Payment Type:</td>
         <td><Input type="text" /></td>
     </tr>
-    Test Score: <input type="text" id="tscore" />
-    <input type="button" value="check" onclick="CheckPass(); />
-    <div id = "results">
-    </div>
 </table>
 </body>
 </html>
