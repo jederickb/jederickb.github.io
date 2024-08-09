@@ -7,7 +7,8 @@
             score = parseFloat(document.getElementByID("tscore").value);
             if (score >=70)
             {
-                alert("you passed!");
+                str = "<font color='blue'><b>You passed!</b></font>";
+                document.getElementById("results").innerHTML = str;
             }
         }
 </script>
