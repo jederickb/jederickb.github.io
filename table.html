@@ -1,6 +1,5 @@
 <html>
-<body>
-<table border=4>
+<head>
 <script>
     function CheckPass()
         {
@@ -18,12 +17,15 @@
             }
         }
 </script>
-    Test Score: <input type="text" id="tscore" />
-    <input type="button" value="check" onclick="CheckPass();" />
-    <table border=1 bgcolor="tan"><tr><td>
-    <div id = "results">
+</head>
+<body>
+<table border=4>
+    Item 1: <input type="text" id="price1" /><br/>
+    Quanity 2: <input type="text" id="quantity" /><br/>
+    <input type="button" value=" Determine Cost" onclick="calcCost();"
+    <div id="results">
+
     </div>
-    </td></tr></table>
     <tr>
         <td> First Name:</td>
         <td><Input type="text" /></td>
