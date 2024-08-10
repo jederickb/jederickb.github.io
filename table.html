@@ -1,27 +1,20 @@
 <html>
 <head>
 <script>
-    function CheckPass()
+    function calcGrade()
         {
-            score = parseFloat(document.getElementById("tscore").value);
-            if (score >=70)
-            {
-                str = "<font color='blue'><b>You passed!</b></font>";
-                document.getElementById("results").innerHTML = str;
-            }
-            else
-            {
-                str = "<font color='red'><big><big><b>you did not pass!";
-                str = str + "</b></big></big></font>";
-                document.getElementById("results").innerHTML=str;
-            }
+           Item1 = parseFloat(document.getElementById("Item").value);
+           Quantity1 = parseFloat(document.getElementById("Quantity").value);
+           average = Item1 * Quantity1;
+           str = "total is" + total;
+           document.getElementById("results").innerHTML = str;
         }
 </script>
 </head>
 <body>
 <table border=4>
-    Item 1: <input type="text" id="price1" /><br/>
-    Quanity 2: <input type="text" id="quantity" /><br/>
+    Item: <input type="text" id="price" /><br/>
+    Quanity: <input type="text" id="quantity" /><br/>
     <input type="button" value=" Determine Cost" onclick="calcCost();"
     <div id="results">
 
