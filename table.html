@@ -24,13 +24,16 @@ a {
 }
 </style>
 <script>
-    function calcGrade()
+    function calcbonus()
         {
-           Item1 = parseFloat(document.getElementById("Item").value);
-           Quantity1 = parseFloat(document.getElementById("Quantity").value);
-           total = Item1 * Quantity1;
-           str = "total is " + total;
-           document.getElementById("results").innerHTML = str;
+            salesDollars = parseFloat(document.getElementById("sdollars").value);
+            if (salesDollars >= 3)
+                bonus = salesDolalrs * 0.10;
+            else if (salesDollars >= * 2;
+                bonus = salesDollars * 0.05;
+            else
+                bonus = 0;
+            document.getElementById("bonus").value = bonus;
         }
 </script>
 </head>
@@ -48,7 +51,7 @@ a {
         get back to you as soon as i can!
     <br/>
         <b><u>flash deal!!!</u></b>
-        10% discount for 2 or more special packages and up!!!
+        5% discount for 2 or more standars packages! // 10% discount for 3 or more special packages and up!!!
     <br/>
         <b><u>standard</u></b>
         $20 for 1 hr session // 1gb photos & videos
@@ -60,11 +63,11 @@ a {
         $50 for 3 hr session // unlimited photots and video
     </p>
     <table border=4>
-    Item: <input type="text" id="price" /><br/>
-    Quanity: <input type="text" id="quantity" /><br/>
-    <input type="button" value=" Determine Cost" onclick="calcCost();"
-    <div id="results">
-    </div>
+    Sales Dollars: <input type="text" id="sdollars" />
+    <br/>
+    <input type="button" value=Calculate" onclick="calcbonus();" />
+    <br />
+    Discount: <input type="text" id="bonus" />
     
     <tr>
         <td> Package Type:</td>
