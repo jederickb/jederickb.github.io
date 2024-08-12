@@ -1,0 +1,57 @@
+<html>
+<head>
+<style>
+body {
+    background-color: #FAA0A0;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font family: verdana;
+    font-size: 100px;
+}
+p {
+    color: white;
+    text-align: center;
+    font family: verdana;
+    font-size: 30px;
+}
+a {
+    color: white;
+    text-align: center;
+    font family: verdana;
+    font-size: 40px;
+}
+</style>
+<script>
+
+</script>
+</head>
+<body>
+<h1>order request form</h1>
+    <p>
+    <a href="index.html">
+        homepage
+    </a>
+    </p>
+    <p>
+        if you want professionally 
+        done photos just fill out 
+        your information by clicking this link!
+  <a href
+    <br/>
+        <b><u>flash deal!!!</u></b>
+        5% discount for 2 or more standars packages! // 10% discount for 3 or more special packages and up!!!
+    <br/>
+        <b><u>standard</u></b>
+        $20 for 1 hr session // 1gb photos & videos
+    <br/>
+        <b><u>special</u></b>
+        $30 for 2 hr session // 3gb photos & videos
+    <br/>
+        <b><u>premium</u></b>
+        $50 for 3 hr session // unlimited photots and video
+    </p>
+</table>
+</body>
+</html>
