@@ -1,5 +1,28 @@
 <html>
 <head>
+<style>
+body {
+    background-color: #FAA0A0;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font family: verdana;
+    font-size: 100px;
+}
+p {
+    color: white;
+    text-align: center;
+    font family: verdana;
+    font-size: 30px;
+}
+a {
+    color: white;
+    text-align: center;
+    font family: verdana;
+    font-size: 40px;
+}
+</style>
 <script>
     function calcGrade()
         {
@@ -12,13 +35,18 @@
 </script>
 </head>
 <body>
-<table border=4>
+<h1>table order form</h1>
+    <p>
+    <a href="index.html">
+        homepage
+    </a>
+    <table border=4>
     Item: <input type="text" id="price" /><br/>
     Quanity: <input type="text" id="quantity" /><br/>
     <input type="button" value=" Determine Cost" onclick="calcCost();"
     <div id="results">
-
     </div>
+        
     <tr>
         <td> First Name:</td>
         <td><Input type="text" /></td>
@@ -59,6 +87,7 @@
         <td> Payment Type:</td>
         <td><Input type="text" /></td>
     </tr>
+    </p>
 </table>
 </body>
 </html>
